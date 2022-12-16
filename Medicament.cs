@@ -21,7 +21,7 @@ namespace PROJETgesAMM
 
 
 
-        public Medicament(string depotLegal, string nomCommercial, string famCode, string composition, string effets, string contreIndications, string prixEchantillon, string amm)
+        public Medicament(string depotLegal, string nomCommercial, string famCode, string composition, string effets, string contreIndications, string prixEchantillon)
         {
             this.depotLegal = depotLegal;
             this.nomCommercial = nomCommercial;
@@ -30,7 +30,7 @@ namespace PROJETgesAMM
             this.effets = effets;
             this.contreIndications = contreIndications;
             this.prixEchantillon = prixEchantillon;
-            this.amm = amm;
+            this.amm = "";
             this.derniereEtape = 0;
             this.lesEtapes = new List<Workflow>();
         }

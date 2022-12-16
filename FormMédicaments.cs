@@ -25,10 +25,7 @@ namespace PROJETgesAMM
 
             foreach (string leCodeMed in Globale.lesMedicaments.Keys)
             {
-             
-
                 Medicament leMedoc = Globale.lesMedicaments[leCodeMed];
-
                 ListViewItem monMedoc = new ListViewItem();
                 monMedoc.Text = leMedoc.getDepotLegal().ToString();
                 monMedoc.SubItems.Add(leMedoc.getNomCommercial());
@@ -40,9 +37,6 @@ namespace PROJETgesAMM
                 lvMedoc.Items.Add(monMedoc);
             }
         }
-
-        
-
 
         private void FormMédicaments_Load(object sender, EventArgs e)
         {

@@ -8,7 +8,7 @@ namespace PROJETgesAMM {
     class Globale
     {
         public static SqlConnection cnx;
-        public static List<Famille> lesFamilles = new List<Famille>();
+        public static Dictionary<string, Famille> lesFamilles = new Dictionary<string, Famille>();
         public static Dictionary<string, Medicament> lesMedicaments = new Dictionary<string, Medicament>();
         public static List<Etape> lesEtapes = new List<Etape>();
         public static List<Decision> lesDecisions = new List<Decision>();
