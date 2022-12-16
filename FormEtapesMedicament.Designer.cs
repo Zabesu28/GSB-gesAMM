@@ -37,6 +37,7 @@
             this.Norme = new System.Windows.Forms.ColumnHeader();
             this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnRetour = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cbMedicament
@@ -64,7 +65,6 @@
             this.lvEtapes.TabIndex = 1;
             this.lvEtapes.UseCompatibleStateImageBehavior = false;
             this.lvEtapes.View = System.Windows.Forms.View.Details;
-            this.lvEtapes.SelectedIndexChanged += new System.EventHandler(this.lvEtapes_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -105,12 +105,25 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Médicament";
             // 
+            // btnRetour
+            // 
+            this.btnRetour.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnRetour.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRetour.Location = new System.Drawing.Point(1017, 456);
+            this.btnRetour.Name = "btnRetour";
+            this.btnRetour.Size = new System.Drawing.Size(116, 51);
+            this.btnRetour.TabIndex = 3;
+            this.btnRetour.Text = "Retour";
+            this.btnRetour.UseVisualStyleBackColor = false;
+            this.btnRetour.Click += new System.EventHandler(this.btnRetour_Click);
+            // 
             // FormEtapesMedicament
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1145, 519);
+            this.Controls.Add(this.btnRetour);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lvEtapes);
             this.Controls.Add(this.cbMedicament);
@@ -133,5 +146,6 @@
         private ColumnHeader Norme;
         private ColumnHeader columnHeader6;
         private Label label1;
+        private Button btnRetour;
     }
 }

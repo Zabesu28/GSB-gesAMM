@@ -85,13 +85,6 @@ namespace PROJETgesAMM
         }
 
 
-
-
-
-
-
-
-
         private void FormEtapesMedicament_Load(object sender, EventArgs e)
         {
             bd.lireLesMedicaments();
@@ -112,9 +105,9 @@ namespace PROJETgesAMM
 
         }
 
-        private void lvEtapes_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnRetour_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
