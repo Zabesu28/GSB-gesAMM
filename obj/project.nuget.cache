@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xsoDMQvG1+apAOxeayPw9jbyBDjOHcDPHzhkVkdW0zWgZBkq+qRJTCEPga4B/8hTko7+wpSFTeczKhcF/O3+NQ==",
+  "dgSpecHash": "CahtdXBs14vhCmqM48VM+BmZqhvN9dJ5VKEtKzXNjmvnStAvkiFnllNWeZ+hdXqtBXTzXi6Vt0UIfRgtOFi2KQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zabethr\\OneDrive - Établissement Saint-Adjutor\\2ème année\\AP\\AP2_C#\\le vrai rpojet\\PROJETgesAMM\\PROJETgesAMM.csproj",
+  "projectFilePath": "C:\\wamp64\\www\\GSB-gesAMM\\PROJETgesAMM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zabethr\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\zabethr\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

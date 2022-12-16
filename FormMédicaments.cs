@@ -36,7 +36,6 @@ namespace PROJETgesAMM
                 monMedoc.SubItems.Add(leMedoc.getComposition());
                 monMedoc.SubItems.Add(leMedoc.getEffets());
                 monMedoc.SubItems.Add(leMedoc.getContreIndications());
-                monMedoc.SubItems.Add(leMedoc.getPrixEchantillon());
                 lvMedoc.Items.Add(monMedoc);
             }
         }
