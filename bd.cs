@@ -32,12 +32,11 @@ namespace PROJETgesAMM
                 string compMed = SqlExec["MED_COMPOSITION"].ToString();
                 string effetMed = SqlExec["MED_EFFETS"].ToString();
                 string contreIndicMed = SqlExec["MED_CONTREINDIC"].ToString();
-                string prixEchantillonMed = SqlExec["MED_PRIXECHANTILLON"].ToString();
                 string amm = SqlExec["MED_AMM"].ToString();
 
 
 
-                Medicament leMedicament = new Medicament(depotMed, nomComMed, famCode, compMed, effetMed, contreIndicMed, prixEchantillonMed, amm);
+                Medicament leMedicament = new Medicament(depotMed, nomComMed, famCode, compMed, effetMed, contreIndicMed, amm);
 
 
 
@@ -69,14 +68,13 @@ namespace PROJETgesAMM
                 string compMed = SqlExec["MED_COMPOSITION"].ToString();
                 string effetMed = SqlExec["MED_EFFETS"].ToString();
                 string contreIndicMed = SqlExec["MED_CONTREINDIC"].ToString();
-                string prixEchantillonMed = SqlExec["MED_PRIXECHANTILLON"].ToString();
                 string amm = SqlExec["MED_AMM"].ToString();
 
                 string famlibelle = SqlExec["FAM_LIBELLE"].ToString();
                 int nbMediAmm = (int)SqlExec["FAM_NB_MEDI_AMM"];
 
                 Famille laFamille = new Famille(famCode, famlibelle, nbMediAmm);
-                Medicament leMedicament = new Medicament(depotMed, nomComMed, famCode, compMed, effetMed, contreIndicMed, prixEchantillonMed, amm);
+                Medicament leMedicament = new Medicament(depotMed, nomComMed, famCode, compMed, effetMed, contreIndicMed, amm);
                 
 
 
