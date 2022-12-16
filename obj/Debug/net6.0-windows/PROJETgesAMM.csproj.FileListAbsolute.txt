@@ -1,0 +1,154 @@
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.exe
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.deps.json
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.AssemblyReference.cache
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Accueil.resources
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Menu.resources
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Properties.Resources.resources
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.GenerateResource.cache
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfoInputs.cache
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfo.cs
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CoreCompileInputs.cache
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\refint\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\PROJETgesAMM\bin\Debug\net6.0-windows\SQLConnection.dll
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.AssemblyReference.cache
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.dll
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\refint\PROJETgesAMM.dll
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.pdb
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.exe
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.deps.json
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.pdb
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\SQLConnection.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AP2\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Accueil.resources
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Menu.resources
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Properties.Resources.resources
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.GenerateResource.cache
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.GeneratedMSBuildEditorConfig.editorconfig
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfoInputs.cache
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfo.cs
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CoreCompileInputs.cache
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
+D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMédicaments.resources
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.exe
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.deps.json
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\SQLConnection.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.AssemblyReference.cache
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Accueil.resources
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapesMedicament.resources
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMédicaments.resources
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Menu.resources
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Properties.Resources.resources
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.GenerateResource.cache
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfoInputs.cache
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfo.cs
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CoreCompileInputs.cache
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\refint\PROJETgesAMM.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
+C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentEnCours.resources

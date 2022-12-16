@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PROJETgesAMM</id>
+    <version>1.0.0</version>
+    <authors>PROJETgesAMM</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="Microsoft.Data.SqlClient" version="5.0.1" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json" target="lib\net6.0-windows7.0\PROJETgesAMM.runtimeconfig.json" />
+    <file src="C:\Users\zabethr\OneDrive - Établissement Saint-Adjutor\2ème année\AP\AP2_C#\le vrai rpojet\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll" target="lib\net6.0-windows7.0\PROJETgesAMM.dll" />
+  </files>
+</package>
