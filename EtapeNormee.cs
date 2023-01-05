@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PROJETgesAMM
 {
-    class EtapeNormee : Etape
+    class EtapeNormee : Etape  /* Eritage */
     {
         private string norme;
         private DateTime dateNorme;

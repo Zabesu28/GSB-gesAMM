@@ -18,7 +18,7 @@ namespace PROJETgesAMM
             InitializeComponent();
         }
 
-        private void chargerListeWorkflow()
+        private void chargerListeWorkflow() /* fonction qui charge la liste des etapes d'un medicament quand celui-ci est sélectionné */
         {
             
 
@@ -30,7 +30,7 @@ namespace PROJETgesAMM
                 Globale.lesMedicaments[cbMedicament.Text].getLesEtapes().Clear();
 
 
-                bd.etapesWorkflow(cbMedicament.Text);
+                bd.etapesWorkflow(cbMedicament.Text); /* appe */
 
                 foreach (Workflow leWorkflow in Globale.lesMedicaments[cbMedicament.Text].getLesEtapes())
                 {

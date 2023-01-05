@@ -55,7 +55,6 @@
             this.lvMedicament.TabIndex = 0;
             this.lvMedicament.UseCompatibleStateImageBehavior = false;
             this.lvMedicament.View = System.Windows.Forms.View.Details;
-            this.lvMedicament.SelectedIndexChanged += new System.EventHandler(this.lvMedicament_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
