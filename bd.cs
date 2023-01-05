@@ -11,7 +11,8 @@ namespace PROJETgesAMM
 {
     public static class bd
     {
-        public static void lireLesMedicaments()
+        // fonction permettant d'ajouter les medicaments de la bdd dans la collection
+        public static void lireLesMedicaments() 
         {
             Globale.lesMedicaments.Clear();
             
@@ -23,7 +24,7 @@ namespace PROJETgesAMM
             // exécuter la procedure stockée dans un curseur 
             SqlDataReader SqlExec = maRequete.ExecuteReader();
 
-            //boucle de lecture des clients avec ajout dans la collection
+            //boucle de lecture des medicament avec ajout dans la collection
             while (SqlExec.Read())
             {
                 string depotMed = SqlExec["MED_DEPOTLEGAL"].ToString();
@@ -44,7 +45,7 @@ namespace PROJETgesAMM
             }
         }
 
-
+        // fonction permettant d'ajouter les medicaments ainsi que leurs familles dans leurs collection respective
         public static void lireLesMedicamentsEnCours()
         {
             Globale.lesMedicaments.Clear();
@@ -58,7 +59,7 @@ namespace PROJETgesAMM
             // exécuter la procedure stockée dans un curseur 
             SqlDataReader SqlExec = maRequete.ExecuteReader();
 
-            //boucle de lecture des clients avec ajout dans la collection
+            //boucle de lecture des medicaments et familles avec ajout dans la collection
             while (SqlExec.Read())
             {
                 
@@ -84,7 +85,7 @@ namespace PROJETgesAMM
             }
         }
 
-
+        // fonction permettant de lire les differentes informations des etapes que le medicament possède (dont le depot legal est en paramètre)
         public static void etapesWorkflow(string depotLegal)
         {
 
@@ -105,6 +106,7 @@ namespace PROJETgesAMM
 
             SqlDataReader SqlExecWorkflow = maRequeteWorkflow.ExecuteReader();
 
+            // boucle de lecture des differentes informations du medicament avec ajout dans leurs collections respectives
                 while (SqlExecWorkflow.Read())
                 {
 
