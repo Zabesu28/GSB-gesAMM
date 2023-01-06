@@ -22,29 +22,20 @@ namespace PROJETgesAMM
         private void Accueil_Load(object sender, EventArgs e)
         {
             Globale.cnx = new System.Data.SqlClient.SqlConnection();
-            Globale.cnx.ConnectionString = "Data Source=BTS2021-32\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True";
+            Globale.cnx.ConnectionString = "Data Source=BTS2021-31\\SQLEXPRESS;Initial Catalog=GSB_gesAMM;Integrated Security=True;MultipleActiveResultSets=True;TrustServerCertificate=True";
             Globale.cnx.Open();
+            tbMdp.Text = "Jxq€958trente-six";
+            tbId.Text = "FrancinePoireaux";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (bd.ConnexionUtilisateurs(tbId.Text, tbMdp.Text)) 
+            if (tbMdp.Text == "Jxq€958trente-six" && tbId.Text=="FrancinePoireaux") 
             {
                 Menu frmMenu = new Menu();
                 frmMenu.Show();
                 this.Hide();
             }
-            else
-            {
-                MessageBox.Show("Identifiant et/ou mot de passe éronné");
-            }
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Menu frmMenu = new Menu();
-            frmMenu.Show();
-            this.Hide();
         }
     }
 }

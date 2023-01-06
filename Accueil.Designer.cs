@@ -32,7 +32,6 @@
             this.tbId = new System.Windows.Forms.TextBox();
             this.tbMdp = new System.Windows.Forms.TextBox();
             this.btnConnexion = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbId
@@ -61,17 +60,6 @@
             this.btnConnexion.UseVisualStyleBackColor = true;
             this.btnConnexion.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(604, 245);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 175);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "SKIP!!!!!";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // Accueil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -79,7 +67,6 @@
             this.BackgroundImage = global::PROJETgesAMM.Properties.Resources.Annotation__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 460);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnConnexion);
             this.Controls.Add(this.tbMdp);
             this.Controls.Add(this.tbId);
@@ -98,6 +85,5 @@
         private TextBox tbId;
         private TextBox tbMdp;
         private Button btnConnexion;
-        private Button button1;
     }
 }

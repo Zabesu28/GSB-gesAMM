@@ -12,9 +12,10 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\fenerolm\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\fenerolm\\.nuget\\packages",
+      "C:\\Users\\zabethr\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\zabethr\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "configProperties": {

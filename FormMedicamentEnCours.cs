@@ -19,7 +19,7 @@ namespace PROJETgesAMM
 
         private void FormMedicamentEnCours_Load(object sender, EventArgs e)
         {
-            bd.lireLesMedicamentsEnCours(); /* appel la fonction se trouvant dans bd, premettant d'intégrer dans la liste c# les médicaments en cours  */
+            bd.lireLesMedicamentsEnCours();
             foreach (string leCodeMedicament in Globale.lesMedicaments.Keys)
             {
                 
@@ -33,7 +33,7 @@ namespace PROJETgesAMM
                     if(laFamille.getCode() == leMedicament.getFamCode())
                     {
                         trouve = true;
-                        if (leMedicament.getAmm() == "") /* si le médicament est pas encore autorisé on va l'afficher  */
+                        if (leMedicament.getAmm() == "")
                         {
                             ListViewItem MonEtape = new ListViewItem();
                             MonEtape.Text = leMedicament.getDepotLegal();
@@ -59,19 +59,19 @@ namespace PROJETgesAMM
             }
         }
 
-        private void chargerListeWorkflowEnCours() /* fonction permettant de afficher la liste des etapes du médicament (en cours) sélectionné */
+        private void chargerListeWorkflowEnCours()
         {
 
 
-            if (Globale.lesMedicaments.ContainsKey(cbMedicament.Text)) 
+            if (Globale.lesMedicaments.ContainsKey(cbMedicament.Text))
             {
-                lvEtapes.Items.Clear();  /* on vide toutes les données à afficher */
+                lvEtapes.Items.Clear();
                 Globale.lesEtapes.Clear();
                 Globale.lesDecisions.Clear();
                 Globale.lesMedicaments[cbMedicament.Text].getLesEtapes().Clear();
 
 
-                bd.etapesWorkflow(cbMedicament.Text); /* fonction venant de bd qui va remplir les listes selon le médicament choisit  */
+                bd.etapesWorkflow(cbMedicament.Text);
 
                 foreach (Workflow leWorkflow in Globale.lesMedicaments[cbMedicament.Text].getLesEtapes())
                 {
@@ -91,8 +91,8 @@ namespace PROJETgesAMM
 
                                 if (laDecision.getId() == leWorkflow.getIdDecision() && idx == 0)
                                 {
-                                    /* ajoute les étapes du médicament dans la listView */
 
+                                    
                                     idx++;
                                     ListViewItem MonEtape = new ListViewItem();
 
@@ -133,17 +133,20 @@ namespace PROJETgesAMM
 
 
 
-
-        /* charge la liste des etapes d'un medicament quand celui-ci est sélectionné */
-        private void cbMedicament_SelectedIndexChanged(object sender, EventArgs e)  
+        private void lvMedicament_SelectedIndexChanged(object sender, EventArgs e)
         {
-            chargerListeWorkflowEnCours(); 
 
+            foreach(string leCodeMedicament in Globale.lesMedicaments.Keys)
+            {
+                Medicament leMed = Globale.lesMedicaments[leCodeMedicament];
+                MessageBox.Show(lvMedicament.Items[leCodeMedicament].ToString());
+            }
         }
 
-        private void btnRetour_Click(object sender, EventArgs e)
+        private void cbMedicament_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.Close();
+            chargerListeWorkflowEnCours();
+
         }
     }
 }
