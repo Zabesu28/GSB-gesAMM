@@ -20,41 +20,37 @@ namespace PROJETgesAMM
         private void consulatationToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormMédicaments frmMedoc = new FormMédicaments();
+            
             frmMedoc.Show();
-        }
-
-        private void insertionToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void etapesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FormEtapesMedicament frmEtapes = new FormEtapesMedicament();
-            frmEtapes.Show();
-        }
-
-        private void toolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void Menu_Load(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void enCoursToolStripMenuItem_Click(object sender, EventArgs e)
+        private void insertionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormMedicamentEnCours frmMedEC = new FormMedicamentEnCours();
-            frmMedEC.Show();
+            FormMedicamentsAjouter form = new FormMedicamentsAjouter();
+            form.Show();
         }
 
-        private void etapeToolStripMenuItem_Click(object sender, EventArgs e)
+        private void etapesNorméesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormEtapeNormees form = new FormEtapeNormees();
+            form.Show();
         }
 
+        private void consultationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEtapesMedicament form = new FormEtapesMedicament();
+            form.Show();
+        }
 
+        private void etapesEnCoursToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormMedicamentEnCours form = new FormMedicamentEnCours();
+            form.Show();
+        }
     }
 }

@@ -4,10 +4,12 @@ using System.Text;
 
 namespace PROJETgesAMM
 {
-    class EtapeNormee : Etape  /* Eritage */
+    class EtapeNormee : Etape
     {
         private string norme;
         private DateTime dateNorme;
+
+
 
         public EtapeNormee(int num, string libelle, string norme, DateTime dateNormee) : base(num, libelle)
         {

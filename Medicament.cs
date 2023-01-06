@@ -4,6 +4,8 @@ using System.Text;
 
 
 
+
+
 namespace PROJETgesAMM
 {
     class Medicament
@@ -17,6 +19,8 @@ namespace PROJETgesAMM
         private string amm;
         private int derniereEtape;
         private List<Workflow> lesEtapes;
+
+
 
 
 
@@ -35,6 +39,8 @@ namespace PROJETgesAMM
 
 
 
+
+
         public string getDepotLegal() { return this.depotLegal; }
         public string getNomCommercial() { return this.nomCommercial; }
         public string getFamCode() { return this.famCode; }
@@ -44,6 +50,8 @@ namespace PROJETgesAMM
         public string getAmm() { return this.amm; }
         public int getDerniereEtape() { return this.derniereEtape; }
         public List<Workflow> getLesEtapes() { return this.lesEtapes; }
+
+
 
 
 

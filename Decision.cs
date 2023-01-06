@@ -10,12 +10,10 @@ namespace  PROJETgesAMM
         private int id;
         private string libelle;
 
-
         public Decision(int id, string libelle)
         {
             this.id = id;
             this.libelle = libelle;
-
         }
 
         public int getId() { return this.id; }
