@@ -40,6 +40,7 @@
             this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
             this.Norme = new System.Windows.Forms.ColumnHeader();
             this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
+            this.btnRetour = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lvMedicament
@@ -54,7 +55,6 @@
             this.lvMedicament.TabIndex = 0;
             this.lvMedicament.UseCompatibleStateImageBehavior = false;
             this.lvMedicament.View = System.Windows.Forms.View.Details;
-            this.lvMedicament.SelectedIndexChanged += new System.EventHandler(this.lvMedicament_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -74,7 +74,7 @@
             // cbMedicament
             // 
             this.cbMedicament.FormattingEnabled = true;
-            this.cbMedicament.Location = new System.Drawing.Point(445, 12);
+            this.cbMedicament.Location = new System.Drawing.Point(444, 12);
             this.cbMedicament.Name = "cbMedicament";
             this.cbMedicament.Size = new System.Drawing.Size(151, 28);
             this.cbMedicament.TabIndex = 1;
@@ -127,11 +127,24 @@
             this.columnHeader8.Text = "Date Norme";
             this.columnHeader8.Width = 120;
             // 
+            // btnRetour
+            // 
+            this.btnRetour.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.btnRetour.Location = new System.Drawing.Point(477, 471);
+            this.btnRetour.Name = "btnRetour";
+            this.btnRetour.Size = new System.Drawing.Size(118, 56);
+            this.btnRetour.TabIndex = 3;
+            this.btnRetour.Text = "Retour";
+            this.btnRetour.UseVisualStyleBackColor = false;
+            this.btnRetour.Click += new System.EventHandler(this.btnRetour_Click);
+            // 
             // FormMedicamentEnCours
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(1296, 552);
+            this.Controls.Add(this.btnRetour);
             this.Controls.Add(this.lvEtapes);
             this.Controls.Add(this.cbMedicament);
             this.Controls.Add(this.lvMedicament);
@@ -156,5 +169,6 @@
         private ColumnHeader columnHeader7;
         private ColumnHeader Norme;
         private ColumnHeader columnHeader8;
+        private Button btnRetour;
     }
 }

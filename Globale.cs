@@ -12,6 +12,7 @@ namespace PROJETgesAMM {
         public static Dictionary<string, Medicament> lesMedicaments = new Dictionary<string, Medicament>();
         public static List<Etape> lesEtapes = new List<Etape>();
         public static List<Decision> lesDecisions = new List<Decision>();
-
+        public static List<EtapeNormee> lesEtapesNormees = new List<EtapeNormee>();
+        public static int idUser;
     }
 }

@@ -9,6 +9,8 @@ namespace PROJETgesAMM
         private string norme;
         private DateTime dateNorme;
 
+
+
         public EtapeNormee(int num, string libelle, string norme, DateTime dateNormee) : base(num, libelle)
         {
             this.norme = norme;

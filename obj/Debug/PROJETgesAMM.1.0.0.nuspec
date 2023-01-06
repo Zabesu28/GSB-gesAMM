@@ -18,7 +18,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-    <file src="C:\wamp64\www\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json" target="lib\net6.0-windows7.0\PROJETgesAMM.runtimeconfig.json" />
-    <file src="C:\wamp64\www\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll" target="lib\net6.0-windows7.0\PROJETgesAMM.dll" />
+    <file src="D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json" target="lib\net6.0-windows7.0\PROJETgesAMM.runtimeconfig.json" />
+    <file src="D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll" target="lib\net6.0-windows7.0\PROJETgesAMM.dll" />
   </files>
 </package>

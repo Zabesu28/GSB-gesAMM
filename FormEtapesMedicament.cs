@@ -18,7 +18,8 @@ namespace PROJETgesAMM
             InitializeComponent();
         }
 
-        private void chargerListeWorkflow()
+        /* fonction qui charge la liste des etapes d'un medicament quand celui-ci est sélectionné */
+        private void chargerListeWorkflow() 
         {
             
 
@@ -30,7 +31,7 @@ namespace PROJETgesAMM
                 Globale.lesMedicaments[cbMedicament.Text].getLesEtapes().Clear();
 
 
-                bd.etapesWorkflow(cbMedicament.Text);
+                bd.etapesWorkflow(cbMedicament.Text); // appelle la fonction etapes workflow de bd permettant de remplir la collection des medicaments
 
                 foreach (Workflow leWorkflow in Globale.lesMedicaments[cbMedicament.Text].getLesEtapes())
                 {
@@ -54,6 +55,8 @@ namespace PROJETgesAMM
                                     idx++;
                                     ListViewItem MonEtape = new ListViewItem();
 
+                                    /* Conversion date */
+
                                     DateTime laDate = (lEtape as EtapeNormee).getDateNorme();
                                     string uneDate = (laDate.Day +"/"+ laDate.Month +"/"+ laDate.Year).ToString();
                                     DateTime laDateDecision = leWorkflow.getDateDecision();
@@ -66,6 +69,7 @@ namespace PROJETgesAMM
                                     MonEtape.SubItems.Add((lEtape as EtapeNormee).getNorme());
                                     MonEtape.SubItems.Add(uneDate.ToString());
 
+                                    /* Ajout de l'etape et autre info dans la liste view */
                                     lvEtapes.Items.Add(MonEtape);
 
                             }
@@ -84,17 +88,10 @@ namespace PROJETgesAMM
 
         }
 
-
-
-
-
-
-
-
-
+        /* Affiche les medicaments dans la comboBox */
         private void FormEtapesMedicament_Load(object sender, EventArgs e)
         {
-            bd.lireLesMedicaments();
+            bd.lireLesMedicaments(); // fonction venant de bd qui remplit la collection des medicaments  
             foreach (string leCodeMedicament in Globale.lesMedicaments.Keys)
             {
                 Medicament leMedicament = Globale.lesMedicaments[leCodeMedicament];
@@ -103,18 +100,17 @@ namespace PROJETgesAMM
             }
             
         }
-        private void cbMedicament_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-            
+        /* Charge les infos des etapes du medicament sélectionné dans la listView après la sélection de celle-ci */
+        private void cbMedicament_SelectedIndexChanged(object sender, EventArgs e)
+        {         
             chargerListeWorkflow();
-            
 
         }
 
-        private void lvEtapes_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnRetour_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
