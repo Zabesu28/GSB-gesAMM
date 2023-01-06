@@ -49,5 +49,12 @@ namespace PROJETgesAMM
             FormMedicamentEnCours frmMedEC = new FormMedicamentEnCours();
             frmMedEC.Show();
         }
+
+        private void etapeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

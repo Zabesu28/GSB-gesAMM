@@ -39,6 +39,8 @@
             this.insertionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.etapesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enCoursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.etapeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.etapeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.Affichage.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -77,7 +79,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1});
+            this.toolStripMenuItem1,
+            this.etapeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(940, 28);
@@ -124,6 +127,21 @@
             this.enCoursToolStripMenuItem.Text = "En cours";
             this.enCoursToolStripMenuItem.Click += new System.EventHandler(this.enCoursToolStripMenuItem_Click);
             // 
+            // etapeToolStripMenuItem
+            // 
+            this.etapeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.etapeToolStripMenuItem1});
+            this.etapeToolStripMenuItem.Name = "etapeToolStripMenuItem";
+            this.etapeToolStripMenuItem.Size = new System.Drawing.Size(61, 24);
+            this.etapeToolStripMenuItem.Text = "Etape";
+            this.etapeToolStripMenuItem.Click += new System.EventHandler(this.etapeToolStripMenuItem_Click);
+            // 
+            // etapeToolStripMenuItem1
+            // 
+            this.etapeToolStripMenuItem1.Name = "etapeToolStripMenuItem1";
+            this.etapeToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.etapeToolStripMenuItem1.Text = "Etape";
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -157,5 +175,7 @@
         private ToolStripMenuItem insertionToolStripMenuItem;
         private ToolStripMenuItem etapesToolStripMenuItem;
         private ToolStripMenuItem enCoursToolStripMenuItem;
+        private ToolStripMenuItem etapeToolStripMenuItem;
+        private ToolStripMenuItem etapeToolStripMenuItem1;
     }
 }
