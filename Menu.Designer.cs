@@ -42,16 +42,10 @@
             this.familleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nombreDeMédicamentAutoriséToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.etapesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-<<<<<<< HEAD
-            this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.etapesNorméesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.etapesEnCoursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-=======
             this.enCoursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.etapesNorméesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.historiqueDesModificationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
->>>>>>> feature_clement
             this.Affichage.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -91,10 +85,7 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-<<<<<<< HEAD
-=======
             this.familleToolStripMenuItem,
->>>>>>> feature_clement
             this.etapesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -106,13 +97,9 @@
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.consulatationToolStripMenuItem,
-<<<<<<< HEAD
-            this.insertionToolStripMenuItem});
-=======
             this.insertionToolStripMenuItem,
             this.saisieDeLaDécisionDuneEtapToolStripMenuItem,
             this.etapeMedicamentToolStripMenuItem});
->>>>>>> feature_clement
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(112, 24);
             this.toolStripMenuItem1.Text = "Médicaments";
@@ -163,41 +150,18 @@
             // etapesToolStripMenuItem
             // 
             this.etapesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-<<<<<<< HEAD
-            this.consultationToolStripMenuItem,
-            this.etapesEnCoursToolStripMenuItem,
-            this.etapesNorméesToolStripMenuItem});
-            this.etapesToolStripMenuItem.Name = "etapesToolStripMenuItem";
-            this.etapesToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
-            this.etapesToolStripMenuItem.Text = "Etapes ";
-=======
             this.enCoursToolStripMenuItem,
             this.etapesNorméesToolStripMenuItem});
             this.etapesToolStripMenuItem.Name = "etapesToolStripMenuItem";
             this.etapesToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
             this.etapesToolStripMenuItem.Text = "Etapes";
->>>>>>> feature_clement
             // 
-            // consultationToolStripMenuItem
+            // enCoursToolStripMenuItem
             // 
-            this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
-            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(315, 26);
-            this.consultationToolStripMenuItem.Text = "Consultation";
-            this.consultationToolStripMenuItem.Click += new System.EventHandler(this.consultationToolStripMenuItem_Click);
-            // 
-            // etapesNorméesToolStripMenuItem
-            // 
-            this.etapesNorméesToolStripMenuItem.Name = "etapesNorméesToolStripMenuItem";
-            this.etapesNorméesToolStripMenuItem.Size = new System.Drawing.Size(315, 26);
-            this.etapesNorméesToolStripMenuItem.Text = "Etapes normées";
-            this.etapesNorméesToolStripMenuItem.Click += new System.EventHandler(this.etapesNorméesToolStripMenuItem_Click);
-            // 
-            // etapesEnCoursToolStripMenuItem
-            // 
-            this.etapesEnCoursToolStripMenuItem.Name = "etapesEnCoursToolStripMenuItem";
-            this.etapesEnCoursToolStripMenuItem.Size = new System.Drawing.Size(315, 26);
-            this.etapesEnCoursToolStripMenuItem.Text = "Etapes des médicaments en cours";
-            this.etapesEnCoursToolStripMenuItem.Click += new System.EventHandler(this.etapesEnCoursToolStripMenuItem_Click);
+            this.enCoursToolStripMenuItem.Name = "enCoursToolStripMenuItem";
+            this.enCoursToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.enCoursToolStripMenuItem.Text = "En cours";
+            this.enCoursToolStripMenuItem.Click += new System.EventHandler(this.enCoursToolStripMenuItem_Click);
             // 
             // etapesNorméesToolStripMenuItem
             // 
@@ -258,15 +222,9 @@
         private ToolStripMenuItem saisieDeLaDécisionDuneEtapToolStripMenuItem;
         private ToolStripMenuItem etapeMedicamentToolStripMenuItem;
         private ToolStripMenuItem etapesToolStripMenuItem;
-<<<<<<< HEAD
-        private ToolStripMenuItem etapesNorméesToolStripMenuItem;
-        private ToolStripMenuItem consultationToolStripMenuItem;
-        private ToolStripMenuItem etapesEnCoursToolStripMenuItem;
-=======
         private ToolStripMenuItem enCoursToolStripMenuItem;
         private ToolStripMenuItem etapesNorméesToolStripMenuItem;
         private ToolStripMenuItem consultationToolStripMenuItem;
         private ToolStripMenuItem historiqueDesModificationToolStripMenuItem;
->>>>>>> feature_clement
     }
 }

@@ -18,8 +18,7 @@ namespace PROJETgesAMM
             InitializeComponent();
         }
 
-        /* fonction qui charge la liste des etapes d'un medicament quand celui-ci est sélectionné */
-        private void chargerListeWorkflow() 
+        private void chargerListeWorkflow()
         {
             
 
@@ -30,14 +29,9 @@ namespace PROJETgesAMM
                 Globale.lesDecisions.Clear();
                 Globale.lesMedicaments[cbMedicament.Text].getLesEtapes().Clear();
 
-<<<<<<< HEAD
-
-                bd.etapesWorkflow(cbMedicament.Text); // appelle la fonction etapes workflow de bd permettant de remplir la collection des medicaments
-=======
                 bd.etapesWorkflowNormees(cbMedicament.Text);
                 bd.etapesWorkflow(cbMedicament.Text);
                 
->>>>>>> feature_clement
 
                 foreach (Workflow leWorkflow in Globale.lesMedicaments[cbMedicament.Text].getLesEtapes())
                 {
@@ -62,13 +56,6 @@ namespace PROJETgesAMM
                                     trouve = true;
                                     ListViewItem MonEtape = new ListViewItem();
 
-<<<<<<< HEAD
-                                    /* Conversion date */
-
-                                    DateTime laDate = (lEtape as EtapeNormee).getDateNorme();
-                                    string uneDate = (laDate.Day +"/"+ laDate.Month +"/"+ laDate.Year).ToString();
-=======
->>>>>>> feature_clement
                                     DateTime laDateDecision = leWorkflow.getDateDecision();
                                     string uneDateDecision = (laDateDecision.Day + "/" + laDateDecision.Month + "/" + laDateDecision.Year).ToString();
 
@@ -94,7 +81,6 @@ namespace PROJETgesAMM
                                             
                                     
 
-                                    /* Ajout de l'etape et autre info dans la liste view */
                                     lvEtapes.Items.Add(MonEtape);
 
                             }
@@ -113,10 +99,17 @@ namespace PROJETgesAMM
 
         }
 
-        /* Affiche les medicaments dans la comboBox */
+
+
+
+
+
+
+
+
         private void FormEtapesMedicament_Load(object sender, EventArgs e)
         {
-            bd.lireLesMedicaments(); // fonction venant de bd qui remplit la collection des medicaments  
+            bd.lireLesMedicaments();
             foreach (string leCodeMedicament in Globale.lesMedicaments.Keys)
             {
                 Medicament leMedicament = Globale.lesMedicaments[leCodeMedicament];
@@ -125,17 +118,18 @@ namespace PROJETgesAMM
             }
             
         }
-
-        /* Charge les infos des etapes du medicament sélectionné dans la listView après la sélection de celle-ci */
         private void cbMedicament_SelectedIndexChanged(object sender, EventArgs e)
-        {         
+        {
+
+            
             chargerListeWorkflow();
+            
 
         }
 
-        private void btnRetour_Click(object sender, EventArgs e)
+        private void lvEtapes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            this.Close();
+
         }
     }
 }

@@ -19,13 +19,9 @@ namespace PROJETgesAMM
             this.depotLegal = depotLegal;
         }
 
-
-
         public DateTime getDateDecision() { return this.dateDecision; }
         public int getNumEtape() { return this.numEtape; }
         public int getIdDecision() { return this.idDecision; }
-
-
 
     }
 }

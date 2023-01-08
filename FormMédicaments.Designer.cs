@@ -87,8 +87,8 @@
             // 
             // columnHeader7
             // 
-            this.columnHeader7.Text = "Mise en marché";
-            this.columnHeader7.Width = 150;
+            this.columnHeader7.Text = "Prix Echantillon";
+            this.columnHeader7.Width = 100;
             // 
             // FormMédicaments
             // 

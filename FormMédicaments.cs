@@ -33,11 +33,7 @@ namespace PROJETgesAMM
                 monMedoc.SubItems.Add(leMedoc.getComposition());
                 monMedoc.SubItems.Add(leMedoc.getEffets());
                 monMedoc.SubItems.Add(leMedoc.getContreIndications());
-<<<<<<< HEAD
-                monMedoc.SubItems.Add(leMedoc.getAmm());
-=======
                 monMedoc.SubItems.Add(leMedoc.getAmm().ToString());
->>>>>>> feature_clement
                 lvMedoc.Items.Add(monMedoc);
             }
         }

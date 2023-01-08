@@ -4,12 +4,9 @@
     <Compile Update="Accueil.cs">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
-=======
     <Compile Update="FormAfficherHistorique.cs">
       <SubType>Form</SubType>
     </Compile>
->>>>>>> feature_clement
     <Compile Update="FormEtapeNormees.cs">
       <SubType>Form</SubType>
     </Compile>

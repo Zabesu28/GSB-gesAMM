@@ -18,12 +18,7 @@
     </frameworkReferences>
   </metadata>
   <files>
-<<<<<<< HEAD
-    <file src="D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json" target="lib\net6.0-windows7.0\PROJETgesAMM.runtimeconfig.json" />
-    <file src="D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll" target="lib\net6.0-windows7.0\PROJETgesAMM.dll" />
-=======
     <file src="C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json" target="lib\net6.0-windows7.0\PROJETgesAMM.runtimeconfig.json" />
     <file src="C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll" target="lib\net6.0-windows7.0\PROJETgesAMM.dll" />
->>>>>>> feature_clement
   </files>
 </package>

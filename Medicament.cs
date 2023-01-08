@@ -4,8 +4,6 @@ using System.Text;
 
 
 
-
-
 namespace PROJETgesAMM
 {
     class Medicament
@@ -22,11 +20,6 @@ namespace PROJETgesAMM
 
 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> feature_clement
         public Medicament(string depotLegal, string nomCommercial, string famCode, string composition, string effets, string contreIndications, string amm)
         {
             this.depotLegal = depotLegal;
@@ -39,8 +32,6 @@ namespace PROJETgesAMM
             this.derniereEtape = 0;
             this.lesEtapes = new List<Workflow>();
         }
-
-
 
 
 
@@ -61,8 +52,6 @@ namespace PROJETgesAMM
         public void setWorkflow(List<Workflow> PLEASE)
         {
         }
-
-
 
 
 

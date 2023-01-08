@@ -14,11 +14,8 @@ namespace PROJETgesAMM {
         public static List<Decision> lesDecisions = new List<Decision>();
         public static List<EtapeNormee> lesEtapesNormees = new List<EtapeNormee>();
         public static int idUser;
-<<<<<<< HEAD
-=======
         public static List<Modif> lesModifs = new List<Modif>();
 
 
->>>>>>> feature_clement
     }
 }

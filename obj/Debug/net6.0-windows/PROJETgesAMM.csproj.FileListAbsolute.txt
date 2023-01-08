@@ -99,65 +99,6 @@ D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMédicaments.resources
-<<<<<<< HEAD
-D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentsAjouter.resources
-D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapeNormees.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.AssemblyReference.cache
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Accueil.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapeNormees.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapesMedicament.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentEnCours.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentsAjouter.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMédicaments.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Menu.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Properties.Resources.resources
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.GenerateResource.cache
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.GeneratedMSBuildEditorConfig.editorconfig
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfoInputs.cache
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfo.cs
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CoreCompileInputs.cache
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\refint\PROJETgesAMM.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.pdb
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.exe
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.deps.json
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.pdb
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\SQLConnection.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
-D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
-=======
 C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.exe
 C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.deps.json
 C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json
@@ -270,4 +211,3 @@ C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genr
 C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
 C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormAfficherHistorique.resources
 C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapeNormees.resources
->>>>>>> feature_clement
