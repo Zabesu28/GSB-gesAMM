@@ -4,6 +4,12 @@
     <Compile Update="Accueil.cs">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Update="FormAfficherHistorique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> feature_clement
     <Compile Update="FormEtapeNormees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -17,6 +23,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormMédicaments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMedAutoriseFam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmSaisieDecisionEtap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Menu.cs">

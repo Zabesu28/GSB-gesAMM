@@ -99,6 +99,7 @@ D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMédicaments.resources
+<<<<<<< HEAD
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentsAjouter.resources
 D:\AP2\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapeNormees.resources
 D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.AssemblyReference.cache
@@ -156,3 +157,117 @@ D:\ProjetGSBgesAMM\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstand
 D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
 D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
 D:\ProjetGSBgesAMM\GSB-gesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
+=======
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.exe
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.deps.json
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\SQLConnection.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.AssemblyReference.cache
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Accueil.resources
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentsAjouter.resources
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMédicaments.resources
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Menu.resources
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Properties.Resources.resources
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.GenerateResource.cache
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfoInputs.cache
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfo.cs
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CoreCompileInputs.cache
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\refint\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.frmMedAutoriseFam.resources
+C:\Users\jardinc\Desktop\AP2_C#\v réparer\PROJETgesAMM\PROJETgesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.frmSaisieDecisionEtap.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.exe
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.deps.json
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.runtimeconfig.json
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\SQLConnection.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.AssemblyReference.cache
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Accueil.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapesMedicament.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentEnCours.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMedicamentsAjouter.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormMédicaments.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.frmMedAutoriseFam.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.frmSaisieDecisionEtap.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Menu.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.Properties.Resources.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.GenerateResource.cache
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfoInputs.cache
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.AssemblyInfo.cs
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CoreCompileInputs.cache
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.csproj.CopyComplete
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\refint\PROJETgesAMM.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.pdb
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.genruntimeconfig.cache
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\ref\PROJETgesAMM.dll
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormAfficherHistorique.resources
+C:\Users\jardinc\Downloads\GSB-gesAMM\obj\Debug\net6.0-windows\PROJETgesAMM.FormEtapeNormees.resources
+>>>>>>> feature_clement

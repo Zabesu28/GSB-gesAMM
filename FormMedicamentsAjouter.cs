@@ -35,10 +35,18 @@ namespace PROJETgesAMM
             bd.lireLesFamilles();
             foreach(Famille uneFamille in Globale.lesFamilles)
             {
+<<<<<<< HEAD
                 cbFamille.Items.Add(uneFamille);
             }
         }
 
+=======
+                cbFamille.Items.Add(uneFamille.getLibelle());
+            }
+        }
+
+
+>>>>>>> feature_clement
         private void btnAjouter_Click(object sender, EventArgs e)
         {
             if(bd.insererMedoc(tbDepotLegal.Text, tbNomCommercial.Text, cbFamille.Text, tbComposition.Text, tbEffets.Text, tbContreIndication.Text))

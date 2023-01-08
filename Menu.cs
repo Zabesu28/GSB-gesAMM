@@ -35,6 +35,7 @@ namespace PROJETgesAMM
             form.Show();
         }
 
+<<<<<<< HEAD
         private void etapesNorméesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormEtapeNormees form = new FormEtapeNormees();
@@ -45,11 +46,52 @@ namespace PROJETgesAMM
         {
             FormEtapesMedicament form = new FormEtapesMedicament();
             form.Show();
+=======
+        private void nombreDeMédicamentAutoriséToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMedAutoriseFam frmMedAuto = new frmMedAutoriseFam();
+            
+            frmMedAuto.Show();
+            this.Hide();
+        }
+
+        private void saisieDeLaDécisionDuneEtapToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSaisieDecisionEtap frmSaisieEtap = new frmSaisieDecisionEtap();
+
+            frmSaisieEtap.Show();
+            this.Hide();
+        }
+
+        private void etapeMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEtapesMedicament frmEtpMed = new FormEtapesMedicament();
+
+            frmEtpMed.Show();
+            this.Hide();
+>>>>>>> feature_clement
         }
 
         private void etapesEnCoursToolStripMenuItem_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             FormMedicamentEnCours form = new FormMedicamentEnCours();
+=======
+            FormMedicamentEnCours frmEtpMed = new FormMedicamentEnCours();
+            frmEtpMed.Show();
+            this.Hide();
+        }
+
+        private void consultationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEtapeNormees form = new FormEtapeNormees();
+            form.Show();
+        }
+
+        private void historiqueDesModificationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAfficherHistorique form = new FormAfficherHistorique();
+>>>>>>> feature_clement
             form.Show();
         }
     }

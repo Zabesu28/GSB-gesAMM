@@ -22,8 +22,11 @@ namespace PROJETgesAMM
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> feature_clement
         public Medicament(string depotLegal, string nomCommercial, string famCode, string composition, string effets, string contreIndications, string amm)
         {
             this.depotLegal = depotLegal;
@@ -48,8 +51,16 @@ namespace PROJETgesAMM
         public string getEffets() { return this.effets; }
         public string getContreIndications() { return this.contreIndications; }
         public string getAmm() { return this.amm; }
-        public int getDerniereEtape() { return this.derniereEtape; }
+        public int getDerniereEtape() 
+        {
+            
+            return lesEtapes.Count;
+        }
         public List<Workflow> getLesEtapes() { return this.lesEtapes; }
+
+        public void setWorkflow(List<Workflow> PLEASE)
+        {
+        }
 
 
 
