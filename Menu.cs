@@ -31,7 +31,8 @@ namespace PROJETgesAMM
 
         private void insertionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FormMedicamentsAjouter form = new FormMedicamentsAjouter();
+            form.Show();
         }
 
         private void nombreDeMédicamentAutoriséToolStripMenuItem_Click(object sender, EventArgs e)
@@ -48,6 +49,33 @@ namespace PROJETgesAMM
 
             frmSaisieEtap.Show();
             this.Hide();
+        }
+
+        private void etapeMedicamentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEtapesMedicament frmEtpMed = new FormEtapesMedicament();
+
+            frmEtpMed.Show();
+            this.Hide();
+        }
+
+        private void enCoursToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormMedicamentEnCours frmEtpMed = new FormMedicamentEnCours();
+            frmEtpMed.Show();
+            this.Hide();
+        }
+
+        private void consultationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEtapeNormees form = new FormEtapeNormees();
+            form.Show();
+        }
+
+        private void historiqueDesModificationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAfficherHistorique form = new FormAfficherHistorique();
+            form.Show();
         }
     }
 }

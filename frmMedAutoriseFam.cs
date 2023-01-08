@@ -23,9 +23,8 @@ namespace PROJETgesAMM
             lvMedAutoriser.Items.Clear();
             bd.lireLesFamilles();
             bd.lireLesMedicaments();
-            foreach(string leCodeFamille in Globale.lesFamilles.Keys)
+            foreach(Famille laFamille in Globale.lesFamilles)
             {
-                Famille laFamille = Globale.lesFamilles[leCodeFamille];
                
                     ListViewItem maLigne = new ListViewItem();
                     maLigne.Text = laFamille.getCode().ToString();
@@ -44,14 +43,17 @@ namespace PROJETgesAMM
                 foreach (string leCodeMedicament in Globale.lesMedicaments.Keys)
                 {
                     Medicament leMedicament = Globale.lesMedicaments[leCodeMedicament];
-
-                    if (leMedicament.getFamCode().ToString() == lvFamille.SelectedItems[0].Text)
+                    if(leMedicament.getAmm()=="1")
                     {
-                        ListViewItem maLigne = new ListViewItem();
-                        maLigne.Text = leMedicament.getDepotLegal().ToString();
-                        maLigne.SubItems.Add(leMedicament.getNomCommercial().ToString());
-                        lvMedAutoriser.Items.Add(maLigne);
+                        if (leMedicament.getFamCode().ToString() == lvFamille.SelectedItems[0].Text)
+                            {
+                                ListViewItem maLigne = new ListViewItem();
+                                maLigne.Text = leMedicament.getDepotLegal().ToString();
+                                maLigne.SubItems.Add(leMedicament.getNomCommercial().ToString());
+                                lvMedAutoriser.Items.Add(maLigne);
+                            }
                     }
+                   
 
                 }
             }

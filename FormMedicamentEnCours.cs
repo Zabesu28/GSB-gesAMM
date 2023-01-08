@@ -19,18 +19,23 @@ namespace PROJETgesAMM
 
         private void FormMedicamentEnCours_Load(object sender, EventArgs e)
         {
-            bd.lireLesMedicamentsEnCours();
+            bd.lireLesMedicaments();
+            bd.lireLesFamilles();
             foreach (string leCodeMedicament in Globale.lesMedicaments.Keys)
             {
                 
                 Medicament leMedicament = Globale.lesMedicaments[leCodeMedicament];
-
-                int idx = 0;
                 bool trouve = false;
+
+                /*int idx = 0;
                 while(idx < Globale.lesFamilles.Count && !trouve)
                 {
-                    Famille laFamille = Globale.lesFamilles[idx];
-                    if(laFamille.getCode() == leMedicament.getFamCode())
+                    Famille laFamille = Globale.lesFamilles[idx];*/
+                foreach (Famille laFamille in Globale.lesFamilles)
+                {
+
+                
+                    if(laFamille.getCode().ToString() == leMedicament.getFamCode().ToString())
                     {
                         trouve = true;
                         if (leMedicament.getAmm() == "")
@@ -50,7 +55,6 @@ namespace PROJETgesAMM
                     }
                     else
                     {
-                        idx++;
                     }
 
                     
@@ -70,34 +74,33 @@ namespace PROJETgesAMM
                 Globale.lesDecisions.Clear();
                 Globale.lesMedicaments[cbMedicament.Text].getLesEtapes().Clear();
 
-
+                bd.etapesWorkflowNormees(cbMedicament.Text);
                 bd.etapesWorkflow(cbMedicament.Text);
+
 
                 foreach (Workflow leWorkflow in Globale.lesMedicaments[cbMedicament.Text].getLesEtapes())
                 {
-
+                    bool trouve = false;
 
 
                     foreach (Etape lEtape in Globale.lesEtapes)
                     {
 
+
                         if (lEtape.getNum() == leWorkflow.getNumEtape())
                         {
 
-                            int idx = 0;
+
                             foreach (Decision laDecision in Globale.lesDecisions)
                             {
 
 
-                                if (laDecision.getId() == leWorkflow.getIdDecision() && idx == 0)
+                                if (laDecision.getId() == leWorkflow.getIdDecision() && trouve == false)
                                 {
 
-                                    
-                                    idx++;
+                                    trouve = true;
                                     ListViewItem MonEtape = new ListViewItem();
 
-                                    DateTime laDate = (lEtape as EtapeNormee).getDateNorme();
-                                    string uneDate = (laDate.Day + "/" + laDate.Month + "/" + laDate.Year).ToString();
                                     DateTime laDateDecision = leWorkflow.getDateDecision();
                                     string uneDateDecision = (laDateDecision.Day + "/" + laDateDecision.Month + "/" + laDateDecision.Year).ToString();
 
@@ -105,8 +108,23 @@ namespace PROJETgesAMM
                                     MonEtape.SubItems.Add(lEtape.getLibelle());
                                     MonEtape.SubItems.Add(uneDateDecision.ToString());
                                     MonEtape.SubItems.Add(laDecision.getLibelle());
-                                    MonEtape.SubItems.Add((lEtape as EtapeNormee).getNorme());
-                                    MonEtape.SubItems.Add(uneDate.ToString());
+
+                                    if (Globale.lesEtapes.Contains((lEtape as EtapeNormee)))
+                                    {
+                                        DateTime laDate = (lEtape as EtapeNormee).getDateNorme();
+                                        string uneDate = (laDate.Day + "/" + laDate.Month + "/" + laDate.Year).ToString();
+                                        MonEtape.SubItems.Add((lEtape as EtapeNormee).getNorme());
+                                        MonEtape.SubItems.Add(uneDate.ToString());
+                                    }
+                                    else
+                                    {
+                                        MonEtape.SubItems.Add("");
+                                        MonEtape.SubItems.Add("");
+                                    }
+
+
+
+
 
                                     lvEtapes.Items.Add(MonEtape);
 

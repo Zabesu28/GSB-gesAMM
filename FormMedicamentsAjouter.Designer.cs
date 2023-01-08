@@ -33,24 +33,25 @@
             this.btnAjouter = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.tbContreIndication = new System.Windows.Forms.TextBox();
-            this.tbEffets = new System.Windows.Forms.TextBox();
-            this.tbNomCommercial = new System.Windows.Forms.TextBox();
+            this.cbFamille = new System.Windows.Forms.ComboBox();
             this.tbComposition = new System.Windows.Forms.TextBox();
-            this.tbCodeFamille = new System.Windows.Forms.TextBox();
+            this.tbNomCommercial = new System.Windows.Forms.TextBox();
+            this.tbEffets = new System.Windows.Forms.TextBox();
+            this.tbContreIndication = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbDepotLegal
             // 
-            this.tbDepotLegal.Location = new System.Drawing.Point(174, 37);
+            this.tbDepotLegal.Location = new System.Drawing.Point(174, 40);
             this.tbDepotLegal.Name = "tbDepotLegal";
             this.tbDepotLegal.Size = new System.Drawing.Size(275, 27);
             this.tbDepotLegal.TabIndex = 0;
+            this.tbDepotLegal.TextChanged += new System.EventHandler(this.tbDepotLegal_TextChanged);
             // 
             // label1
             // 
@@ -69,6 +70,7 @@
             this.btnAjouter.TabIndex = 2;
             this.btnAjouter.Text = "Ajouter";
             this.btnAjouter.UseVisualStyleBackColor = true;
+            this.btnAjouter.Click += new System.EventHandler(this.btnAjouter_Click);
             // 
             // label2
             // 
@@ -81,7 +83,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.tbCodeFamille);
+            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.groupBox1.Controls.Add(this.cbFamille);
             this.groupBox1.Controls.Add(this.tbComposition);
             this.groupBox1.Controls.Add(this.tbNomCommercial);
             this.groupBox1.Controls.Add(this.tbEffets);
@@ -101,32 +104,48 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ajout médicament";
             // 
-            // label3
+            // cbFamille
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 358);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Code Famille :";
+            this.cbFamille.FormattingEnabled = true;
+            this.cbFamille.Location = new System.Drawing.Point(174, 355);
+            this.cbFamille.Name = "cbFamille";
+            this.cbFamille.Size = new System.Drawing.Size(275, 28);
+            this.cbFamille.TabIndex = 12;
+            this.cbFamille.SelectedIndexChanged += new System.EventHandler(this.cbFamille_SelectedIndexChanged);
             // 
-            // label4
+            // tbComposition
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(18, 249);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 20);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Composition :";
+            this.tbComposition.Location = new System.Drawing.Point(174, 249);
+            this.tbComposition.Name = "tbComposition";
+            this.tbComposition.Size = new System.Drawing.Size(275, 27);
+            this.tbComposition.TabIndex = 11;
+            this.tbComposition.TextChanged += new System.EventHandler(this.tbComposition_TextChanged);
             // 
-            // label5
+            // tbNomCommercial
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(588, 37);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 20);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "Effets :";
+            this.tbNomCommercial.Location = new System.Drawing.Point(174, 146);
+            this.tbNomCommercial.Name = "tbNomCommercial";
+            this.tbNomCommercial.Size = new System.Drawing.Size(275, 27);
+            this.tbNomCommercial.TabIndex = 10;
+            this.tbNomCommercial.TextChanged += new System.EventHandler(this.tbNomCommercial_TextChanged);
+            // 
+            // tbEffets
+            // 
+            this.tbEffets.Location = new System.Drawing.Point(739, 37);
+            this.tbEffets.Multiline = true;
+            this.tbEffets.Name = "tbEffets";
+            this.tbEffets.Size = new System.Drawing.Size(412, 178);
+            this.tbEffets.TabIndex = 9;
+            this.tbEffets.TextChanged += new System.EventHandler(this.tbEffets_TextChanged);
+            // 
+            // tbContreIndication
+            // 
+            this.tbContreIndication.Location = new System.Drawing.Point(739, 278);
+            this.tbContreIndication.Multiline = true;
+            this.tbContreIndication.Name = "tbContreIndication";
+            this.tbContreIndication.Size = new System.Drawing.Size(412, 178);
+            this.tbContreIndication.TabIndex = 8;
+            this.tbContreIndication.TextChanged += new System.EventHandler(this.tbContreIndication_TextChanged);
             // 
             // label6
             // 
@@ -137,42 +156,32 @@
             this.label6.TabIndex = 7;
             this.label6.Text = "Contre indication :";
             // 
-            // tbContreIndication
+            // label5
             // 
-            this.tbContreIndication.Location = new System.Drawing.Point(739, 275);
-            this.tbContreIndication.Multiline = true;
-            this.tbContreIndication.Name = "tbContreIndication";
-            this.tbContreIndication.Size = new System.Drawing.Size(412, 178);
-            this.tbContreIndication.TabIndex = 8;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(588, 37);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(53, 20);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Effets :";
             // 
-            // tbEffets
+            // label4
             // 
-            this.tbEffets.Location = new System.Drawing.Point(739, 37);
-            this.tbEffets.Multiline = true;
-            this.tbEffets.Name = "tbEffets";
-            this.tbEffets.Size = new System.Drawing.Size(412, 178);
-            this.tbEffets.TabIndex = 9;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(18, 249);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(101, 20);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Composition :";
             // 
-            // tbNomCommercial
+            // label3
             // 
-            this.tbNomCommercial.Location = new System.Drawing.Point(174, 146);
-            this.tbNomCommercial.Name = "tbNomCommercial";
-            this.tbNomCommercial.Size = new System.Drawing.Size(275, 27);
-            this.tbNomCommercial.TabIndex = 10;
-            // 
-            // tbComposition
-            // 
-            this.tbComposition.Location = new System.Drawing.Point(174, 249);
-            this.tbComposition.Name = "tbComposition";
-            this.tbComposition.Size = new System.Drawing.Size(275, 27);
-            this.tbComposition.TabIndex = 11;
-            // 
-            // tbCodeFamille
-            // 
-            this.tbCodeFamille.Location = new System.Drawing.Point(174, 351);
-            this.tbCodeFamille.Name = "tbCodeFamille";
-            this.tbCodeFamille.Size = new System.Drawing.Size(275, 27);
-            this.tbCodeFamille.TabIndex = 12;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(18, 358);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 20);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Code Famille :";
             // 
             // FormMedicamentsAjouter
             // 
@@ -182,6 +191,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "FormMedicamentsAjouter";
             this.Text = "Ajouter un nouveau médicament";
+            this.Load += new System.EventHandler(this.FormMedicamentsAjouter_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -195,7 +205,6 @@
         private Button btnAjouter;
         private Label label2;
         private GroupBox groupBox1;
-        private TextBox tbCodeFamille;
         private TextBox tbComposition;
         private TextBox tbNomCommercial;
         private TextBox tbEffets;
@@ -204,5 +213,6 @@
         private Label label5;
         private Label label4;
         private Label label3;
+        private ComboBox cbFamille;
     }
 }

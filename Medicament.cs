@@ -14,14 +14,13 @@ namespace PROJETgesAMM
         private string composition;
         private string effets;
         private string contreIndications;
-        private string prixEchantillon;
         private string amm;
         private int derniereEtape;
         private List<Workflow> lesEtapes;
 
 
 
-        public Medicament(string depotLegal, string nomCommercial, string famCode, string composition, string effets, string contreIndications, string prixEchantillon)
+        public Medicament(string depotLegal, string nomCommercial, string famCode, string composition, string effets, string contreIndications, string amm)
         {
             this.depotLegal = depotLegal;
             this.nomCommercial = nomCommercial;
@@ -29,8 +28,7 @@ namespace PROJETgesAMM
             this.composition = composition;
             this.effets = effets;
             this.contreIndications = contreIndications;
-            this.prixEchantillon = prixEchantillon;
-            this.amm = "";
+            this.amm = amm;
             this.derniereEtape = 0;
             this.lesEtapes = new List<Workflow>();
         }
@@ -43,10 +41,17 @@ namespace PROJETgesAMM
         public string getComposition() { return this.composition; }
         public string getEffets() { return this.effets; }
         public string getContreIndications() { return this.contreIndications; }
-        public string getPrixEchantillon() { return this.prixEchantillon; }
         public string getAmm() { return this.amm; }
-        public int getDerniereEtape() { return this.derniereEtape; }
+        public int getDerniereEtape() 
+        {
+            
+            return lesEtapes.Count;
+        }
         public List<Workflow> getLesEtapes() { return this.lesEtapes; }
+
+        public void setWorkflow(List<Workflow> PLEASE)
+        {
+        }
 
 
 

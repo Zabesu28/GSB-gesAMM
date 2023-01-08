@@ -52,10 +52,10 @@
             this.tbActualEtapLibelle = new System.Windows.Forms.TextBox();
             this.tbActualEtapDateNorme = new System.Windows.Forms.TextBox();
             this.tbActualEtapNorme = new System.Windows.Forms.TextBox();
-            this.tbActualEtapDateDeci = new System.Windows.Forms.TextBox();
-            this.tbActualEtapTypeDeci = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.btnValider = new System.Windows.Forms.Button();
+            this.dtpDatePicker = new System.Windows.Forms.DateTimePicker();
+            this.cbDecision = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // cbMed
@@ -97,7 +97,7 @@
             this.tbLastEtapLibelle.Enabled = false;
             this.tbLastEtapLibelle.Location = new System.Drawing.Point(124, 214);
             this.tbLastEtapLibelle.Name = "tbLastEtapLibelle";
-            this.tbLastEtapLibelle.Size = new System.Drawing.Size(107, 27);
+            this.tbLastEtapLibelle.Size = new System.Drawing.Size(376, 27);
             this.tbLastEtapLibelle.TabIndex = 4;
             // 
             // tbLastEtapNorme
@@ -181,7 +181,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(395, 166);
+            this.label9.Location = new System.Drawing.Point(653, 166);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 20);
             this.label9.TabIndex = 14;
@@ -190,7 +190,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(422, 123);
+            this.label10.Location = new System.Drawing.Point(680, 123);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(30, 20);
             this.label10.TabIndex = 15;
@@ -199,7 +199,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(393, 217);
+            this.label11.Location = new System.Drawing.Point(651, 217);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(59, 20);
             this.label11.TabIndex = 16;
@@ -208,7 +208,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(359, 262);
+            this.label12.Location = new System.Drawing.Point(617, 262);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(93, 20);
             this.label12.TabIndex = 17;
@@ -217,7 +217,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(347, 305);
+            this.label13.Location = new System.Drawing.Point(605, 305);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(105, 20);
             this.label13.TabIndex = 18;
@@ -226,7 +226,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(347, 352);
+            this.label14.Location = new System.Drawing.Point(605, 352);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(104, 20);
             this.label14.TabIndex = 19;
@@ -234,50 +234,40 @@
             // 
             // tbActualEtapNum
             // 
-            this.tbActualEtapNum.Location = new System.Drawing.Point(458, 119);
+            this.tbActualEtapNum.Enabled = false;
+            this.tbActualEtapNum.Location = new System.Drawing.Point(716, 119);
             this.tbActualEtapNum.Name = "tbActualEtapNum";
             this.tbActualEtapNum.Size = new System.Drawing.Size(107, 27);
             this.tbActualEtapNum.TabIndex = 20;
             // 
             // tbActualEtapLibelle
             // 
-            this.tbActualEtapLibelle.Location = new System.Drawing.Point(458, 163);
+            this.tbActualEtapLibelle.Enabled = false;
+            this.tbActualEtapLibelle.Location = new System.Drawing.Point(716, 163);
             this.tbActualEtapLibelle.Name = "tbActualEtapLibelle";
-            this.tbActualEtapLibelle.Size = new System.Drawing.Size(107, 27);
+            this.tbActualEtapLibelle.Size = new System.Drawing.Size(435, 27);
             this.tbActualEtapLibelle.TabIndex = 21;
             // 
             // tbActualEtapDateNorme
             // 
-            this.tbActualEtapDateNorme.Location = new System.Drawing.Point(458, 262);
+            this.tbActualEtapDateNorme.Enabled = false;
+            this.tbActualEtapDateNorme.Location = new System.Drawing.Point(716, 262);
             this.tbActualEtapDateNorme.Name = "tbActualEtapDateNorme";
             this.tbActualEtapDateNorme.Size = new System.Drawing.Size(107, 27);
             this.tbActualEtapDateNorme.TabIndex = 22;
             // 
             // tbActualEtapNorme
             // 
-            this.tbActualEtapNorme.Location = new System.Drawing.Point(458, 219);
+            this.tbActualEtapNorme.Enabled = false;
+            this.tbActualEtapNorme.Location = new System.Drawing.Point(716, 219);
             this.tbActualEtapNorme.Name = "tbActualEtapNorme";
             this.tbActualEtapNorme.Size = new System.Drawing.Size(107, 27);
             this.tbActualEtapNorme.TabIndex = 23;
             // 
-            // tbActualEtapDateDeci
-            // 
-            this.tbActualEtapDateDeci.Location = new System.Drawing.Point(458, 301);
-            this.tbActualEtapDateDeci.Name = "tbActualEtapDateDeci";
-            this.tbActualEtapDateDeci.Size = new System.Drawing.Size(107, 27);
-            this.tbActualEtapDateDeci.TabIndex = 28;
-            // 
-            // tbActualEtapTypeDeci
-            // 
-            this.tbActualEtapTypeDeci.Location = new System.Drawing.Point(457, 349);
-            this.tbActualEtapTypeDeci.Name = "tbActualEtapTypeDeci";
-            this.tbActualEtapTypeDeci.Size = new System.Drawing.Size(107, 27);
-            this.tbActualEtapTypeDeci.TabIndex = 29;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(459, 75);
+            this.label15.Location = new System.Drawing.Point(717, 75);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(105, 20);
             this.label15.TabIndex = 30;
@@ -285,23 +275,42 @@
             // 
             // btnValider
             // 
-            this.btnValider.Location = new System.Drawing.Point(456, 392);
+            this.btnValider.Enabled = false;
+            this.btnValider.Location = new System.Drawing.Point(714, 392);
             this.btnValider.Name = "btnValider";
             this.btnValider.Size = new System.Drawing.Size(111, 31);
             this.btnValider.TabIndex = 31;
             this.btnValider.Text = "Valider";
             this.btnValider.UseVisualStyleBackColor = true;
-            this.btnValider.Click += new System.EventHandler(this.btnValider_Click);
+            this.btnValider.Click += new System.EventHandler(this.btnValider_Click_1);
+            // 
+            // dtpDatePicker
+            // 
+            this.dtpDatePicker.Enabled = false;
+            this.dtpDatePicker.Location = new System.Drawing.Point(717, 305);
+            this.dtpDatePicker.Name = "dtpDatePicker";
+            this.dtpDatePicker.Size = new System.Drawing.Size(250, 27);
+            this.dtpDatePicker.TabIndex = 32;
+            // 
+            // cbDecision
+            // 
+            this.cbDecision.Enabled = false;
+            this.cbDecision.FormattingEnabled = true;
+            this.cbDecision.Location = new System.Drawing.Point(717, 349);
+            this.cbDecision.Name = "cbDecision";
+            this.cbDecision.Size = new System.Drawing.Size(151, 28);
+            this.cbDecision.TabIndex = 33;
+            this.cbDecision.SelectedIndexChanged += new System.EventHandler(this.cbDecision_SelectedIndexChanged_1);
             // 
             // frmSaisieDecisionEtap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1163, 450);
+            this.Controls.Add(this.cbDecision);
+            this.Controls.Add(this.dtpDatePicker);
             this.Controls.Add(this.btnValider);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.tbActualEtapTypeDeci);
-            this.Controls.Add(this.tbActualEtapDateDeci);
             this.Controls.Add(this.tbActualEtapNorme);
             this.Controls.Add(this.tbActualEtapDateNorme);
             this.Controls.Add(this.tbActualEtapLibelle);
@@ -360,9 +369,9 @@
         private TextBox tbActualEtapLibelle;
         private TextBox tbActualEtapDateNorme;
         private TextBox tbActualEtapNorme;
-        private TextBox tbActualEtapDateDeci;
-        private TextBox tbActualEtapTypeDeci;
         private Label label15;
         private Button btnValider;
+        private DateTimePicker dtpDatePicker;
+        private ComboBox cbDecision;
     }
 }

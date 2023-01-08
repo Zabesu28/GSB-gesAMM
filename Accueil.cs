@@ -26,20 +26,10 @@ namespace PROJETgesAMM
             Globale.cnx.Open();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnConnexion_Click(object sender, EventArgs e)
         {
-            if (tbMdp.Text == "Jxq€958trente-six" && tbId.Text=="FrancinePoireaux") 
-            {
-                Menu frmMenu = new Menu();
-                frmMenu.Show();
-                this.Hide();
-            }
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Menu frmMenu = new Menu();
-            frmMenu.Show();
+            Menu Menu = new Menu();
+            Menu.Show();
             this.Hide();
         }
     }
