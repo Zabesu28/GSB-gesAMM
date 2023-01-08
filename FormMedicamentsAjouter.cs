@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,7 +35,7 @@ namespace PROJETgesAMM
             bd.lireLesFamilles();
             foreach(Famille uneFamille in Globale.lesFamilles)
             {
-                cbFamille.Items.Add(uneFamille.getLibelle());
+                cbFamille.Items.Add(uneFamille.getCode());
             }
         }
 
